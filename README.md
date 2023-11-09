@@ -7,7 +7,7 @@
 Workflow Simulation using Git and github
 
 ### Description
-simulating industry workflow process using Bikeshare.py codes and specific Datasets 
+Simulating industry workflow process using the python query analysis on the Bikeshare dataset for chicago, new york and washington cities.
 
 ### Files used
 chicago.csv, new_york_city.csv, washington.csv
