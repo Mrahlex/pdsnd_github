@@ -3,11 +3,12 @@
 
 # In[ ]:
 
-
+#import libraries 
 import time
 import pandas as pd
 import numpy as np
 
+# list containing all the three datasets
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -17,7 +18,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 # In[ ]:
 
-
+# define function to set conditions 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
