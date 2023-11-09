@@ -3,12 +3,11 @@
 
 # In[ ]:
 
-#import libraries 
+
 import time
 import pandas as pd
 import numpy as np
 
-# list containing all the three datasets
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -18,7 +17,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 # In[ ]:
 
-# define function to set conditions 
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -131,7 +130,7 @@ def time_stats(df):
     
     common_start_hour = df['Start Hour'].mode()[0]
     
-    print(f"The most common start hour for travel is: {common_start_hour}")
+    print(f"The most common start hour for travel is: {common_start_hour}") # This will print the most common hour for travel
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -251,7 +250,7 @@ def user_stats(df):
 
 # In[ ]:
 
-
+#Display results from querying the 3 Datasets 
 def main():
     while True:
         # Get user input for city, month, and day
